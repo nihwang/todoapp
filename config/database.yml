@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: todoapp_development
+  pool: 5
+  username: 
+  password:
+
+test:
+  adapter: postgresql
+  host: localhost
+  database: todoapp_test
+  pool: 5
+  min_messages: warning
+  username: 
+  password:
+
+production:
+  adapter: postgresql
+  host: localhost
+  database: todoapp_production
+  pool: 5
+  username: 
+  password:
